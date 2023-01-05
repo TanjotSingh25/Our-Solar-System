@@ -2,6 +2,8 @@
     <h1 style="text-weight: bold; font-size:40px">Our Solar System</h1>
 </div>
 
+## Link: https://webhome.csc.uvic.ca/~tanjotsingh/Project%201/index.html
+
 ## Description:
 
 This is a informative website about our Solar System. This website only uses HTML, CSS to present you an impressive presentation on the Solar System. 
