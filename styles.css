@@ -1,0 +1,450 @@
+#Title_Page
+{
+    background-image: url("Images/Background-gif.gif");
+    overflow: hidden;
+}
+
+.square-img
+{
+    opacity: 0;
+    width: 10rem;
+    border-radius: 5px;
+    transition: opacity 5s ease, transform 0.8s ease;
+    margin: 15px;
+}
+
+.mrg
+{
+    margin-top: 20px;
+}
+
+.square-img:hover
+{
+    opacity: 1;
+    transition: opacity 0.1s ease;
+    transform: scale(1.3);
+}
+
+.flexbox
+{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.Flexboxes
+{
+    display: flex;
+    position: relative;
+}
+
+.statement
+{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.statement h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+}
+
+.statement h3
+{
+    position: relative;
+    padding-left: 55;
+}
+
+.statement a
+{
+    position: relative;
+    left: 40%;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+/*----------------Home Page---------------------*/
+
+#Home
+{
+    margin: 0%;
+    background-image: url("Images/home-background5.jpg");
+    background-size: 400px 400px;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.title-bar
+{
+    display: flex;
+    background-color: black;
+    height: 6%;
+    justify-content: right;
+}
+
+.flexbox-socials
+{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-right: 2%;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.flexbox-socials a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #196bff 0%, #c024ff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+#banner
+{
+    width: 100%;
+}
+
+.flexbox-socials img
+{
+    height: 65%;
+}
+
+.navbar
+{
+    display: flex;
+    position: absolute;
+    top: 15%;
+    justify-content: center;
+    width: 70%;
+    left: 15%;
+    z-index: 99;
+}
+
+.nabvar-item
+{
+    color: white;
+    font-size: 17;
+    text-decoration: none;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.unactive
+{
+    font-size: 22;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.active
+{
+    font-size: 22;
+    color: rgb(255, 128, 0);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.logoo
+{
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+.logoo img
+{
+    width:  23%;
+}
+
+.home-title
+{
+    display: flex;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    top: 250;
+}
+
+.home-title h1
+{
+    font-family: cursive;
+    font-size: 400%;
+}
+
+.ribbon
+{
+    position: sticky;
+    text-align: center;
+    background-color: rgb(24 43 60);
+    height: 5%;
+    top: 0;
+    z-index: 999;
+}
+
+.sun-ribbon
+{
+    background-color: saddlebrown;
+}
+
+.ribbon div
+{
+    position: relative;
+    top: 25%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-image img
+{
+    width: 70%;
+    position: relative;
+    top: 30px;
+}
+
+.dropbox-heading-flexbox
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5%;
+    margin-bottom: 0;
+}
+
+.dropbox-heading-flexbox div
+{
+    width: 33%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-box
+{
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    margin-bottom: 5%;
+    background-color: antiquewhite;
+    max-width: 99%;
+}
+
+.text-box img
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.text-box p
+{
+    text-align: justify;
+    margin-top: 0;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+}
+
+.scroll-img
+{
+    margin: 5%;
+    max-width: 100%;
+    overflow-x: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer
+{
+    background-image: url("Images/footer.jpg");
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer h1
+{
+    color: white;
+    font-size: 45;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer h2
+{
+    color: white;
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-img
+{
+    width: 100%;
+}
+
+.image-index-flexbox
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-img
+{
+    width: 33%;
+}
+
+.footer-img img
+{
+    width: 100%;
+}
+
+.socials-footer
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 40%;
+}
+
+.socials-footer div
+{
+    width: 5%;
+    padding: 0.5%;
+}
+
+.socials-footer img
+{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) 
+{
+    .flexbox
+    {
+        display: none;
+    }
+    
+    .statement
+    {
+        position: fixed;
+        top: 25%;
+        left: 0%;
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .statement h3
+    {
+        padding: 0;
+    }
+
+    .statement a
+    {
+        left: 30%;
+    }
+
+    .title-bar
+    {
+        height: 5%;
+    }
+
+    #banner
+    {
+        height: 30%;
+    }
+
+    .navbar
+    {
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nabvar-item 
+    {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: rgba(0, 0, 0, 0.555);
+    }
+
+    .nabvar-item a
+    {
+        font-size: large;
+    }
+
+    .logoo img
+    {
+        width: 15%;
+    }
+
+    .home-title
+    {
+        display: none;
+    }
+
+    .dropbox-heading-flexbox div
+    {
+        font-size: large;
+        line-height: 60px;
+    }
+
+    .heading-image img
+    {
+        top: 7px;
+    }
+
+    .text-box p
+    {
+        font-size: medium;
+    }
+
+    .footer
+    {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 900px)
+{
+    .text-box p
+    {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 1100px)
+{
+    .home-title
+    {
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 400px)
+{
+    #Home
+    {
+        width: 100vh;
+        overflow-x: auto;
+    }
+}
